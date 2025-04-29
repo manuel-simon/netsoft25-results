@@ -10,7 +10,7 @@ The following table provides all model parameters for all experiments conducted 
 
 Model parameters, $r'_{max}$ is the calculated maximum rate, used for validation of the model, 1500 Byte packet size
 
-| CPU | Mode | Driver | $a_{\text{rx}} + a_{\text{tx}}$ | $b_{\text{rx}} + b_{\text{tx}}$ | $a_{\text{process}}$ | $b_{\text{process}}$ | $r_{\text{max}}$ | $r_{\text{max}}'$ |
+| CPU | Mode | Driver | $a_{\text{rx}} + a_{\text{tx}}$ | $b_{\text{rx}} + b_{\text{tx}}$ | $a_{\text{process}}$ | $b_{\text{p}}$ | $r_{\text{max}}$ | $r_{\text{max}}'$ |
 | -- | -- |  -- | -- | -- | -- | -- | -- | -- |
 | EPYC 9354 |  | AF_XDP | 3.008 | 1.420 | -0.063 | 0.400 | 0.52 | 0.52 |
 | EPYC 9354 |  | ICE | -0.011 | 0.010 | 0.072 | 0.441 | 2.06 | 2.21 |
